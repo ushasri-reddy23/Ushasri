@@ -1,0 +1,28 @@
+let currentPage = 1;
+const totalPages = 4;
+
+function showPage(pageNumber) {
+  for (let i = 1; i <= totalPages; i++) {
+    const page = document.getElementById("page" + i);
+    if (page) page.style.display = "none";
+  }
+
+  const visiblePage = document.getElementById("page" + pageNumber);
+  if (visiblePage) visiblePage.style.display = "block";
+}
+
+function nextpage() {
+  if (currentPage < totalPages) {
+    currentPage++;
+    showPage(currentPage);
+  }
+}
+
+function prevpage() {
+  if (currentPage > 1) {
+    currentPage--;
+    showPage(currentPage);
+  }
+}
+
+showPage(currentPage);

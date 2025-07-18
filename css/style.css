@@ -1,0 +1,154 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+    background-color: #1a1a1a;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 50px;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    
+}
+.cover-page{
+    background-color: violet;
+    border: 5px solid purple;
+    width: 450px;
+     height: 95vh ;
+    display:flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    text-align: center;
+    padding-bottom: 300px;
+    position: relative;
+    align-items: center;
+     margin-bottom: 90px;
+}
+
+.page{
+    background-color: violet;
+    border: 5px solid purple;
+    width: 450px;
+     height: 95vh ;
+    display:flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    text-align: center;
+    padding-bottom: 300px;
+    position: relative;
+    align-items: center;
+     margin-bottom: 90px;
+}
+.page h1{
+  padding-top: 15;
+}
+.page h2{
+    padding-top: 10px;
+}
+
+.cover-page img{
+    width: 250px; 
+    height: auto;
+    margin-top: 60px; 
+    margin-bottom: 20px; 
+    display: block; 
+    margin-left: 0px; 
+    margin-right: auto; 
+    
+  
+
+}
+.cover-page2 img{
+  width: 250px; 
+    height: auto;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    display: block; 
+    margin-left: 200px; 
+    margin-right: 10px; 
+    background-color: violet;
+    
+}
+
+
+.author {
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+}
+.author-page1{
+  padding-left: 140px;
+}
+
+
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: violet;
+    background-color: purple;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.next{
+    right: 0px;
+}
+.prev{
+    left: 10px;
+}
+
+
+
+.disclaimer h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #000; 
+}
+
+.disclaimer p {
+  font-size: 18px;
+  margin-top: 65px;
+  line-height: 2.0;
+  color: #1a0033;
+}
+.content p{
+    max-height: 79vh;
+    overflow: auto;
+   scrollbar-width: none;   
+   font-size: medium;  
+   padding-top: 30px;
+   margin-top: 25px;
+   padding: 0 20px;
+   text-align: justify;
+
+  
+}
+.content h4{
+    padding-top: 40px;
+}
+.author-page4 {
+  position: absolute;
+  padding-bottom: 2px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 140px;
+
+}
+
+
