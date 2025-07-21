@@ -5,8 +5,8 @@
 }
 
 body{ 
-    background-color: #1a1a1a;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    font-family:'IM Fell English SC', serif;
     color: black;
     margin: 50px;
     height: 100vh;
@@ -17,8 +17,8 @@ body{
     
 }
 .cover-page{
-    background-color: violet;
-    border: 5px solid purple;
+    border: 5px solid black;
+    background-color: #343335;
     width: 450px;
      height: 95vh ;
     display:flex;
@@ -29,11 +29,13 @@ body{
     position: relative;
     align-items: center;
      margin-bottom: 90px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 .page{
-    background-color: violet;
-    border: 5px solid purple;
+     border: 10px solid black;
+    background-color:#272628;
     width: 450px;
      height: 95vh ;
     display:flex;
@@ -44,6 +46,7 @@ body{
     position: relative;
     align-items: center;
      margin-bottom: 90px;
+    color: white;
 }
 .page h1{
   padding-top: 15;
@@ -52,42 +55,24 @@ body{
     padding-top: 10px;
 }
 
-.cover-page img{
-    width: 250px; 
-    height: auto;
-    margin-top: 60px; 
-    margin-bottom: 20px; 
-    display: block; 
-    margin-left: 0px; 
-    margin-right: auto; 
-    
-  
 
-}
-.cover-page2 img{
-  width: 250px; 
-    height: auto;
-    margin-top: 50px; 
-    margin-bottom: 20px; 
-    display: block; 
-    margin-left: 200px; 
-    margin-right: 10px; 
-    background-color: violet;
-    
-}
+
 
 
 .author {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   font-size: 20px;
-  color: black;
+  color: white;
   font-weight: bold;
   text-align: center;
 
 }
 .author-page1{
-  padding-left: 140px;
+  padding-left: 115px;
+  color: #fff;
+  font-size: 50px;
+
 }
 
 
@@ -96,8 +81,8 @@ body{
     cursor: pointer;
     position: absolute;
     top: 45%;
-    color: violet;
-    background-color: purple;
+    color: white;
+    background-color: black;
     padding: 8px 18px;
     border-radius: 50%;
     font-size: 25px;
@@ -116,14 +101,16 @@ body{
   font-size: 28px;
   margin-top: 30px;
   font-weight: bold;
-  color: #000; 
+  color: white; 
 }
 
-.disclaimer p {
+.content-page p {
   font-size: 18px;
   margin-top: 65px;
   line-height: 2.0;
-  color: #1a0033;
+  color: white;
+  padding: 0 20px;
+  
 }
 .content p{
     max-height: 79vh;
@@ -147,8 +134,41 @@ body{
   color: black;
   font-weight: bold;
   text-align: center;
-  padding-left: 140px;
+  padding-left: 120px;
+  color: #fff;
 
 }
+.author-page2{
+  padding-left: 200px;
 
+}
+.final-page1 {
+  padding-top: 180px;
+}
+.final-page1 h4 {
+  padding-top: 150px;
+  font-size: larger;
 
+}
+.author-page9{
+  padding-left: 200px;
+}
+.content-final {
+    max-height: 80vh;
+   scrollbar-width: none;   
+   font-size: medium;  
+   padding-top: 200px;
+   margin-top: 25px;
+   padding: 0 20px;
+  line-height: 2.1;
+  text-align: justify;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.content-final h2{
+  padding-left: 50px;
+  bottom: 60px;
+}
+.author-page10{
+  padding-left: 100px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
